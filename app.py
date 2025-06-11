@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("model_mobil_knn.pkl")
 scaler = joblib.load("scaler_knn.pkl")
 
-st.title("🚗 Prediksi Harga Mobil Bekas Toyota")
+st.title("🚗 Prediksi Harga Mobil Bekas Toyota (Dalam Pound Sterling)")
 
 # Mapping hasil encoding dari data asli
 model_options = {
